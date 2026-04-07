@@ -1,0 +1,15 @@
+# Normalize all text files
+* text=auto
+
+# Ensure consistent LF endings for code files
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.sql text eol=lf
+
+# Windows scripts (if any later)
+*.bat text eol=crlf
+*.ps1 text eol=crlf
